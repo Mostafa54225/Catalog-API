@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.Build.Traversal/4.1.0">
+    <ItemGroup>
+        <!--  any files that end with .proj are going to be compiled by this file in tasks.json file  -->
+        <ProjectReference Include="**\*.proj" />
+    </ItemGroup>
+</Project>
